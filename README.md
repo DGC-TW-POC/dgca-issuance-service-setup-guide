@@ -2,6 +2,7 @@
 從純淨ubuntu開始安裝
 從0開始
 
+
 ## 安裝docker
 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
@@ -74,6 +75,7 @@ COPY ./context/context.json /app/context/context.json
 WORKDIR /app
 ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar ./app.jar" ]
 ```
+### docker-compose
 - 設定docker-compose
 **建議自己重寫一個docker-compose放在所有service的上一層目錄**
 ```yaml=
