@@ -121,3 +121,7 @@ networks:
   persistence:
 ```
 - `sudo docker-compose up`
+
+## 發證
+eu自己在以下網址有教，請自行查閱
+[CertificatePreperation](https://github.com/eu-digital-green-certificates/dgc-participating-countries/blob/main/gateway/CertificatePreperation.md)
